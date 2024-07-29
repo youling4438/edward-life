@@ -185,6 +185,7 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
   z-index: 15;
   font-family: "cejk", 'Source Sans Pro', arial, sans-serif !important;
+  border-radius: 5px;
 }
 
 .direction-l .desc,
