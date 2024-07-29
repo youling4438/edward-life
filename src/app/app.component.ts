@@ -10,5 +10,5 @@ import { TimeLineComponent } from './time-line/time-line.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'edward-life';
+  title = 'Edward Life';
 }
