@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "edward-life": {
+    "natalie-life": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/edward-life",
+            "outputPath": "dist/natalie-life",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "edward-life:build:production"
+              "buildTarget": "natalie-life:build:production"
             },
             "development": {
-              "buildTarget": "edward-life:build:development"
+              "buildTarget": "natalie-life:build:development"
             }
           },
           "defaultConfiguration": "development"
